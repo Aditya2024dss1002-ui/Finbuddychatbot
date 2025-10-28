@@ -1,18 +1,33 @@
+# Core App
 streamlit==1.38.0
+python-dotenv
+
+# LLM & LangChain
+langchain-core==0.2.19
+langchain-groq==0.1.5
+
+# Web Data
 requests
-beautifulsoup4
 feedparser
+beautifulsoup4
 pandas
+
+# Text & NLP
+textblob
+nltk
+
+# Document Handling & Embeddings
 PyPDF2
-scikit-learn
 sentence-transformers==2.2.2
 torch==2.2.0
 transformers==4.36.2
-textblob
-nltk
-langchain-core==0.2.19
-langchain-groq==0.1.5
-python-dotenv
+scikit-learn
+faiss-cpu
+
+# Dates / Parsing
+datetime
+
+
 
 
 
