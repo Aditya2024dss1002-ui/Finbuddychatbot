@@ -6,3 +6,5 @@ feedparser
 langchain-groq
 langchain-openai
 langchain-google-genai
+python-dotenv
+
