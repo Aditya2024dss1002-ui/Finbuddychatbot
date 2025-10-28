@@ -19,19 +19,7 @@ nltk
 # Document Handling & Embeddings
 PyPDF2
 sentence-transformers==2.2.2
-torch==2.2.0
+torch==2.5.1
 transformers==4.36.2
 scikit-learn
 faiss-cpu
-
-# Dates / Parsing
-datetime
-
-
-
-
-
-
-
-
-
