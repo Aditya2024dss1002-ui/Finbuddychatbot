@@ -10,15 +10,12 @@ python-dotenv
 beautifulsoup4
 requests
 faiss
-streamlit
-requests
-beautifulsoup4
 pandas
 PyPDF2
-sentence-transformers
 scikit-learn
 textblob
 nltk
+
 
 
 
