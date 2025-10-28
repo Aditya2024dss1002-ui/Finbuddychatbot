@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../.
 from models.llm import get_chatgroq_model
 from utils.news_fetcher import fetch_yahoo_finance_news
 from utils.summarizer import summarize_text
-from utils.rag_handler import extract_text_from_pdf, create_vector_store, answer_with_rag
+from utils.embeddings import extract_text_from_pdf, create_vector_store, answer_with_rag
 
 # ------------- Page Layout -------------
 st.set_page_config(page_title="FinBuddy AI", layout="wide")
@@ -152,3 +152,4 @@ def instructions_page():
 # --------------------------------------
 if __name__ == "__main__":
     main()
+
