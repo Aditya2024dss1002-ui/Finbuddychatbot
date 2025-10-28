@@ -1,25 +1,26 @@
-# Core App
+# --- Core UI ---
 streamlit==1.38.0
 python-dotenv
 
-# LLM & LangChain
+# --- LangChain / LLM ---
 langchain-core==0.2.19
 langchain-groq==0.1.5
 
-# Web Data
+# --- Web Data & Feeds ---
 requests
 feedparser
 beautifulsoup4
 pandas
 
-# Text & NLP
+# --- NLP / Sentiment ---
 textblob
 nltk
 
-# Document Handling & Embeddings
+# --- Documents / RAG ---
 PyPDF2
-sentence-transformers==2.2.2
-torch==2.5.1
-transformers==4.36.2
+sentence-transformers==3.0.1
+torch==2.9.0
+torchvision==0.24.0
+transformers==4.46.0
 scikit-learn
 faiss-cpu
