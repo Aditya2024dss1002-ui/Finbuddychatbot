@@ -22,7 +22,6 @@ Env	python-dotenv
 User → Streamlit App → Groq API (LLM)
         ├── News Fetcher → Summarizer
         ├── RAG Module → Document Q&A
-        └── Sentiment → Market Emotion Score
 
 🧰 Setup
 git clone https://github.com/<your-username>/finbuddychatbot.git
