@@ -1,4 +1,4 @@
-FinBuddy AI 💰
+FinBuddy AI 
 
 An AI-powered financial assistant built with Streamlit and Groq’s Llama 3.1 model.
 It brings together live finance news, document-based Q&A, AI summarization, and sentiment analysis — all in one interactive app.
